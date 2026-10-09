@@ -16,6 +16,15 @@
 
 #pragma once
 
+// `SPLIT_HAND_PIN` can currently be defined in `info.json`,
+// but can't yet be given a value
+#define SPLIT_HAND_PIN F4
+
+#define SPLIT_LAYER_STATE_ENABLE
+#define SPLIT_WPM_ENABLE //Enable WPM across split keyboards (+268).
+// #define NO_ACTION_ONESHOT
+#define OLED_BONGO_CAT
+
 // Not yet available in `info.json`
 #ifdef OLED_ENABLE
 #    define OLED_DISPLAY_128X32
